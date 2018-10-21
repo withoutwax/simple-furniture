@@ -1,0 +1,75 @@
+/* GOTHAM */
+@font-face {
+  font-family: 'Gotham';
+  src: url('../assets/fonts/gotham/Gotham-Black.otf');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../assets/fonts/gotham/Gotham-Bold.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../assets/fonts/gotham/Gotham-Medium.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../assets/fonts/gotham/Gotham-Mediumita.otf');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../assets/fonts/gotham/Gotham-Light.otf');
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* HURME GEOMETRIC SANS */
+@font-face {
+  font-family: 'Hurme-Geometric-Sans';
+  src: url('../assets/fonts/hurme_geometric_sans_no3/HurmeGeometricSans3 Black.otf');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hurme-Geometric-Sans';
+  src: url('../assets/fonts/hurme_geometric_sans_no3/HurmeGeometricSans3 Bold.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hurme-Geometric-Sans';
+  src: url('../assets/fonts/hurme_geometric_sans_no3/HurmeGeometricSans3 SemiBold.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hurme-Geometric-Sans';
+  src: url('../assets/fonts/hurme_geometric_sans_no3/HurmeGeometricSans3 Light.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hurme-Geometric-Sans';
+  src: url('../assets/fonts/hurme_geometric_sans_no3/HurmeGeometricSans3 Thin.otf');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hurme-Geometric-Sans';
+  src: url('../assets/fonts/hurme_geometric_sans_no3/HurmeGeometricSans3 Hairline.otf');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Hurme-Geometric-Sans';
+  src: url('../assets/fonts/hurme_geometric_sans_no3/HurmeGeometricSans3.otf');
+  font-weight: normal;
+  font-style: normal;
+}

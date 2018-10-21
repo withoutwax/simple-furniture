@@ -1,0 +1,91 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60vh 50px;
+  justify-items: center;
+  align-items: flex-end;
+
+  margin: 0;
+  width: 100%;
+
+  /* border: 1px yellow solid; */
+}
+
+.content-odger-button {
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    border-radius: 30px;
+    /* filter: blur(2px); */
+
+    background-color: rgba(17, 17, 17, .60); /* #111111 */
+}
+.content-odger-button > * {
+  /* margin: 10px; */
+}
+
+.drag_item {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: #E8D4C5;
+
+  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.drag_item::after {
+  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.drag_item:hover {
+  transform: scale(1.25);
+  box-shadow: 0px 0px 10px #a3a3a3;
+}
+.container {
+  height: 4px;
+  width: 4px;
+  background-color: #E8D4C5;
+  background-clip: padding-box;
+  border: 20px solid rgba(234, 234, 234, 0.0);
+  border-radius: 5px;
+}
+.container-trigger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 25px;
+  width: 25px;
+  border: solid #E8D4C5 2px;
+  border-radius: 17.5px;
+}
+
+/* MODULAR - HIDE & APPEAR */
+.hide-fade {
+  opacity: 0;
+
+  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.hide-gone {
+  display: none;
+
+  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.test-scale {
+  transform: scale(1.1);
+  opacity: .5;
+
+  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.appear-fade {
+  opacity: 1;
+
+  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
