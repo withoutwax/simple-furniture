@@ -4,7 +4,7 @@ html {
 
 body {
     /* IF SVG DOESN'T WORK, CHECK THIS: https://css-tricks.com/forums/topic/svg-css-background-image-not-showing-in-chrome/ */
-    background-image: url("../../assets/images/odger/odger_test_01.jpg");
+    background-image: url("../../assets/images/odger/odger_test_07.png");
 
     /* background-image: url(../../assets/images/odger/odger_test_04.png); */
     background-repeat: no-repeat;

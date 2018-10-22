@@ -208,6 +208,7 @@ function updateProgress(step) {
         case 6:
             stepTitle = 'STEP 06';
             stepInstruction = 'Remove everything except for two metal bars and two metal plates. STEP 06.';
+            break;
     }
     document.getElementById('footer-instruction-step').innerHTML = stepTitle;
     document.getElementById('footer-instruction-step-02').innerHTML = stepInstruction;
