@@ -2,10 +2,11 @@ let step;
 let preloadImg;
 
 window.onload = function() {
-    console.log("stepsReady, ready");
+    console.log("Images, ready");
     step = 1;
 
     initialize(step);
+    console.log("Web App ready");
 }
 
 

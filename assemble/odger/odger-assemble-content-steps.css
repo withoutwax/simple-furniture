@@ -19,8 +19,8 @@
 }
 
 @keyframes sprite-1 {
-  from{background-position-y:17%;}
-  to{background-position-y:21%;}
+  from{background-position-y:83.3333333%;}
+  to{background-position-y:100%;}
 }
 
 @keyframes sprite-2 {
