@@ -12,12 +12,14 @@
   overflow: auto; /* Enable Scroll if needed */
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.4); /* Fallback color w/ opacity */
+  opacity: 0;
 
   -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-.modal.fade {
+.modal.is-visible {
   display: block;
+  opacity: 1;
 }
 
 /*MODAL CONTENT*/

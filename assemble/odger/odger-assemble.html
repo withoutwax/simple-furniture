@@ -11,13 +11,13 @@
   </head>
 
   <body>
-    <div id="mySideNav" class="sidenav">
+    <!-- <div id="mySideNav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#">About</a>
       <a href="#">Services</a>
       <a href="#">Clients</a>
       <a href="#">Contacts</a>
-    </div>
+    </div> -->
     <main id="main-container" class="main-container">
       <article class="main-nav-title">
           <a id="main-menu-icon" href="../../index.html"><img src="../../assets/images/global_icons/simplefurniture_b.png" alt="simplefurniture"></a>
@@ -46,12 +46,12 @@
       <footer>
           <section class="footer-container">
             <!-- <a> -->
-              <img id="footer-instruction" onclick="displayModal()" src="../../assets/images/odger/odger_inst.png" alt="odger-inst" height="100">
+              <img id="footer-instruction" onclick="displayModal()" src="../../assets/images/odger/odger_inst.png" alt="odger-inst" height="100"> <!-- onclick="displayModal()" -->
               <div id="footer-instruction-text">INSTRUCTION</div>
             <!-- </a> -->
-            <div id="modal" class="modal">
+            <div id="modal" class="modal toggle-content">
               <div id="modal-content" class="modal-content">
-                <span onclick="closeModal()">&times;</span>
+                <span>&times;</span> <!-- onclick="closeModal()" -->
                 <p>MODAL TEXT</p>
               </div>
             </div>
