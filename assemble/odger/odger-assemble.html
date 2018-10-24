@@ -37,8 +37,17 @@
 
       <footer>
           <section class="footer-container">
-            <img id="footer-instruction" src="../../assets/images/odger/odger_inst.png" alt="odger-inst" height="100">
-            <div id="footer-instruction-text">INSTRUCTION</div>
+            <!-- <a> -->
+              <img id="footer-instruction" onclick="displayModal()" src="../../assets/images/odger/odger_inst.png" alt="odger-inst" height="100">
+              <div id="footer-instruction-text">INSTRUCTION</div>
+            <!-- </a> -->
+            <div id="modal" class="modal">
+              <div id="modal-content" class="modal-content">
+                <span onclick="closeModal()">&times;</span>
+                <p>MODAL TEXT</p>
+              </div>
+            </div>
+
           </section>
           <section id="footer-content-instruction" class="footer-content-instruction">
               <p id="footer-instruction-step">STEP 01</p>
@@ -51,6 +60,7 @@
           </section>
       </footer>
     </main>
+    <script type="text/javascript" src="./odger-assemble-modal.js"></script>
     <script type="text/javascript" src="./steps/steps.js"></script>
     <script type="text/javascript" src="odger-assemble.js"></script>
   </body>
