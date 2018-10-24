@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>odger-assemble</title>
     <link rel="stylesheet" href="../../css/typeface.css">
     <link rel="stylesheet" href="odger-assemble.css">
     <link rel="stylesheet" href="odger-assemble-content.css"> <!-- MIGHT NOT NEED THIS -->
     <link rel="stylesheet" href="odger-assemble-content-steps.css">
+    <link rel="stylesheet" href="./modal/odger-assemble-modal.css">
   </head>
 
   <body>
-    <main class="main-container">
+    <div id="mySideNav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contacts</a>
+    </div>
+    <main id="main-container" class="main-container">
       <article class="main-nav-title">
           <a id="main-menu-icon" href="../../index.html"><img src="../../assets/images/global_icons/simplefurniture_b.png" alt="simplefurniture"></a>
         <!-- <div>simple <br> furniture</div> -->
@@ -19,7 +27,7 @@
         <!-- <div>Logo</div> -->
       </article>
       <article class="main-nav-search">
-        <img src="../../assets/images/global_icons/menu_icon_b.png" alt="search">
+        <img style="cursor:pointer" onclick="openNav()" src="../../assets/images/global_icons/menu_icon_b.png" alt="search">
         <!-- <div>Search Bar</div> -->
       </article>
 
@@ -60,7 +68,8 @@
           </section>
       </footer>
     </main>
-    <script type="text/javascript" src="./odger-assemble-modal.js"></script>
+    <script type="text/javascript" src="./side-menu/odger-assemble-side-menu.js"></script>
+    <script type="text/javascript" src="./modal/odger-assemble-modal.js"></script>
     <script type="text/javascript" src="./steps/steps.js"></script>
     <script type="text/javascript" src="odger-assemble.js"></script>
   </body>
