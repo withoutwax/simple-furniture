@@ -23,8 +23,8 @@ function initialize(step) {
             // <div class="container" id="container16" ondragover="allowDrop(event)"></div>
             // <div class="container-trigger" id="container17" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
             break;
-
     }
+    console.log("Web App ready");
 }
 
 function updateSteps(step) {
@@ -40,6 +40,14 @@ function updateSteps(step) {
         case 4:
             document.body.style.backgroundImage = 'url("../../assets/images/odger/odger_step_04_10.jpg")';
             document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_04" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container" id="container05" ondragover="allowDrop(event)"></div><div class="container" id="container06" ondragover="allowDrop(event)"></div><div class="container" id="container07" ondragover="allowDrop(event)"></div><div class="container" id="container08" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container09" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
+            break;
+        case 5:
+            document.body.style.backgroundImage = 'url("../../assets/images/odger/odger_step_05_10.jpg")';
+            document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_05" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container05" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
+            break;
+        case 6:
+            document.body.style.backgroundImage = 'url("../../assets/images/odger/odger_step_06_10.jpg")';
+            document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_06" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container" id="container05" ondragover="allowDrop(event)"></div><div class="container" id="container06" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container07" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
             break;
         default:
 
@@ -197,6 +205,48 @@ function allowDrop(e) {
                     document.body.style.backgroundPosition = "0px 0%";
                 }
                 break;
+        case 5:
+            switch (e.target.id) {
+                case 'container02':
+                    document.body.style.backgroundPosition = "0px 9.09%";
+                    break;
+                case 'container03':
+                    document.body.style.backgroundPosition = "0px 18.18%";
+                    break;
+                case 'container04':
+                    document.body.style.backgroundPosition = "0px 27.27%";
+                    break;
+                case 'container05':
+                    document.body.style.backgroundPosition = "0px 36.36%";
+                    break;
+                default:
+                    document.body.style.backgroundPosition = "0px 0%";
+                }
+                break;
+        case 6:
+            switch (e.target.id) {
+                case 'container02':
+                    document.body.style.backgroundPosition = "0px 5.55%";
+                    break;
+                case 'container03':
+                    document.body.style.backgroundPosition = "0px 11.11%";
+                    break;
+                case 'container04':
+                    document.body.style.backgroundPosition = "0px 16.66%";
+                    break;
+                case 'container05':
+                    document.body.style.backgroundPosition = "0px 22.22%";
+                    break;
+                case 'container06':
+                    document.body.style.backgroundPosition = "0px 27.77%";
+                    break;
+                case 'container07':
+                    document.body.style.backgroundPosition = "0px 33.33%";
+                    break;
+                default:
+                    document.body.style.backgroundPosition = "0px 0%";
+                }
+                break;
     }
 
 
@@ -232,6 +282,14 @@ function autoAnimation(data) {
             break;
         case 'box_04':
             backgroundGif = 'background-gif-4';
+            // currentBackgroundPosition = "34%";
+            break;
+        case 'box_05':
+            backgroundGif = 'background-gif-5';
+            // currentBackgroundPosition = "34%";
+            break;
+        case 'box_06':
+            backgroundGif = 'background-gif-6';
             // currentBackgroundPosition = "34%";
             break;
     }

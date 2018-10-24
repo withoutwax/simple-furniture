@@ -6,7 +6,7 @@ window.onload = function() {
     step = 1;
 
     initialize(step);
-    console.log("Web App ready");
+    
 }
 
 
