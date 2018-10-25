@@ -139,7 +139,7 @@ function allowDrop(e) {
                     position = "0px 53.84%";
                     break;
                 case 'container09':
-                    position = "0px 61.53";
+                    position = "0px 61.53%";
                     break;
                 case 'container10':
                     position = "0px 69.23%";
@@ -175,7 +175,7 @@ function allowDrop(e) {
                     position = "0px 31.81%";
                     break;
                 case 'container09':
-                    position = "0px 36.36";
+                    position = "0px 36.36%";
                     break;
                 default:
                     position = "0px 0%";
@@ -205,7 +205,7 @@ function allowDrop(e) {
                     position = "0px 53.84%";
                     break;
                 case 'container09':
-                    position = "0px 61.53";
+                    position = "0px 61.53%";
                     break;
                 default:
                     position = "0px 0%";
@@ -317,7 +317,14 @@ function autoAnimation(data) {
         updateProgress(step);
         appearAgainAnim(document.getElementById("content-steps"));
         appearAgainAnim(document.getElementById("footer-content-instruction"))
+
+        if (step == 7) {
+
+            // alert("Animation finished!");
+            window.location.href = "../final/odger-final.html";
+        }
     }, {once: true} );
+
 }
 
 function updateProgress(step) {
@@ -353,26 +360,4 @@ function updateProgress(step) {
     document.getElementById('footer-instruction-step').innerHTML = stepTitle;
     document.getElementById('footer-instruction-step-02').innerHTML = stepInstruction;
     document.getElementById('content-progress').value = step;
-}
-
-// PRELOAD IMAGE FOR FASTER LOADING
-function preloadImage(url) {
-
-    // Might be useful later on.
-
-    let img = function (url) {
-        return document.body.style.backgroundImage = url;
-    }
-    if (img) return img;
-
-
-    // let img = new Image();
-    // img.onload = function() {
-    //     alert('image loaded');
-    // }
-    // img.src = url;
-    // if (img.complete) img.onload();
-    // console.log(img);
-
-    // document.body.style.backgroundImage = ;
 }

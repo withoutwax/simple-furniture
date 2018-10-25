@@ -1,0 +1,41 @@
+/*GLOBAL / SHARED CSS MODULES*/
+
+/*ICON HOVERS*/
+/*subtle left*/
+.icon-hover-01 {
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.icon-hover-01::after {
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.icon-hover-01:hover {
+    margin-left: 10px;
+}
+
+/*subtle bigger*/
+.icon-hover-02 {
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.icon-hover-02::after {
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.icon-hover-02:hover {
+    transform: scale(1.25);
+}
+
+/*subtle rotate + bigger*/
+.icon-hover-03 {
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.icon-hover-03::after {
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.icon-hover-03:hover {
+    transform: rotate(360deg) scale(1.25);
+}
