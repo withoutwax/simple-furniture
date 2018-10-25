@@ -6,6 +6,7 @@
     --odger-image-05: url("../../assets/images/odger/odger_step_05_10.jpg");
 
     --odger-image-current: url("../../assets/images/odger/odger_step_01_10.jpg");
+    --odger-image-position: "0px 0px";
 }
 
 html {
@@ -21,9 +22,9 @@ body {
     url("../../assets/images/odger/odger_step_05_10.jpg"),
     url("../../assets/images/odger/odger_step_06_10.jpg");
 
-    /* background-image: url(../../assets/images/odger/odger_test_04.png); */
+    /*background-image: var(--odger-image-current); */
     background-repeat: no-repeat;
-    background-position: 0px 0px; /* horizontal vertical */
+    background-position: var(--odger-image-position); /* horizontal vertical */
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -250,7 +251,7 @@ progress::-webkit-progress-value {
     /*background-image: inherit;*/
     background-image: var(--odger-image-current);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
+    background-position: var(--odger-image-position);
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
