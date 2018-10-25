@@ -1,12 +1,13 @@
 let step;
 let preloadImg;
+let root = document.documentElement;
 
 window.onload = function() {
     console.log("Images, ready");
     step = 1;
 
     initialize(step);
-    
+
 }
 
 

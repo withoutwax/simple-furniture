@@ -1,3 +1,13 @@
+:root {
+    --odger-image-01: url("../../assets/images/odger/odger_step_01_10.jpg");
+    --odger-image-02: url("../../assets/images/odger/odger_step_02_10.jpg");
+    --odger-image-03: url("../../assets/images/odger/odger_step_03_10.jpg");
+    --odger-image-04: url("../../assets/images/odger/odger_step_04_10.jpg");
+    --odger-image-05: url("../../assets/images/odger/odger_step_05_10.jpg");
+
+    --odger-image-current: url("../../assets/images/odger/odger_step_01_10.jpg");
+}
+
 html {
   height: 100%;
 }
@@ -168,32 +178,7 @@ footer {
     z-index: 1; */
 
 }
-.blur {
-    position: relative;
-    background: hsla(0, 0%, 10%, .22);
-    /* box-shadow: 5px 3px 30px black; */
-    overflow: hidden;
-}
-.blur::before {
-    background: url("../../assets/images/odger/odger_step_01_10.jpg") no-repeat fixed 0px 0px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
-    content: '';
-    margin: -25px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    filter: blur(10px);
-    z-index: -1;
-}
-.footer-content-instruction::before {
-
-}
 
 .footer-content-instruction-progress {
     display: flex;
@@ -255,26 +240,54 @@ progress::-webkit-progress-value {
     margin-left: 30px;
 }
 
-.background-blur {
-    /* filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-    -webkit-filter: url(#blur-filter);
-    filter: url(#blur-filter);
-    -webkit-filter: blur(3px);
-    filter: blur(3px); */
-    background-image: url("../../assets/images/odger/odger_step_01_10.jpg");
+.blur {
+    position: relative;
+    background: hsla(0, 0%, 10%, .22);
+    /* box-shadow: 5px 3px 30px black; */
+    overflow: hidden;
+}
+.blur::before {
+    /*background-image: inherit;*/
+    background-image: var(--odger-image-current);
     background-repeat: no-repeat;
-    background-position: 0px 0px; /* horizontal vertical */
+    background-position: 0px 0px;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
-    -webkit-filter: blur(10px);
-    filter: url('/media/blur.svg#blur');
+    content: '';
+    margin: -25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     filter: blur(10px);
-    z-index: 1;
+    z-index: -1;
 }
-.blur-svg {
-    display: none;
+
+.blur-image {
+    /*background-image: inherit;*/
+      /*background-image: url("../../assets/images/odger/odger_step_01_10.jpg");
+      background-repeat: no-repeat;
+      background-position: 0px 0px;
+      background-attachment: fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;*/
+
+      /*background-color: red;*/
+      grid-column: 2 / 3;
+      content: '';
+      margin: -25px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      filter: blur(10px);
+      z-index: -1;
 }
