@@ -11,7 +11,7 @@
     transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .icon-hover-01:hover {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 /*subtle bigger*/
