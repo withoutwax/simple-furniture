@@ -321,7 +321,7 @@ function autoAnimation(data) {
         if (step == 7) {
 
             // alert("Animation finished!");
-            window.location.href = "../final/odger-final.html";
+            window.location.href = "./final/odger-final.html";
         }
     }, {once: true} );
 
