@@ -1,49 +1,18 @@
 html {
   height: 100%;
 
-  background: url(../assets/images/intro_01.png) no-repeat center center fixed;
+  background: url(../assets/images/main-background-original.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-
 }
 
 * {
   /* border: solid red 2px; */
   /* color: #E8D4C5; */
-
 }
 
-body {
-  font-family: 'Gotham';
-  height: 100%;
-  /* border: solid blue 2px; */
-  margin: 0;
-  color: #8C8B8B;
-  /* padding: 3%; */
-}
-
-h1 {
-  font-size: 5.5em;
-  font-weight: 600;
-  margin: 0;
-  line-height: .7em;
-}
-h2 {
-  font-family: 'Hurme-Geometric-Sans';
-  font-size: 3.2em;
-  font-weight: normal;
-  margin: 0;
-}
-p {
-  font-size: 0.8em;
-  margin: 0;
-}
-a {
-  text-decoration: none;
-}
 .main-container {
   min-height: 100%; /* NOT CLEAN CODE */
   display: grid;
