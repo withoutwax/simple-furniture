@@ -47,15 +47,18 @@
       <footer>
           <section class="footer-container">
             <!-- <a> -->
-              <img id="footer-instruction" onclick="displayModal()" src="../../assets/images/odger/odger_inst.png" alt="odger-inst" height="90"> <!-- onclick="displayModal()" -->
+              <img id="footer-instruction" onclick="showModal()" src="../../assets/images/odger/odger_inst.png" alt="odger-inst" height="90"> <!-- onclick="displayModal()" -->
               <div id="footer-instruction-text">INSTRUCTION</div>
             <!-- </a> -->
+
+            <!-- MODAL! -->
             <div id="modal" class="modal toggle-content">
               <div id="modal-content" class="modal-content">
-                <span>&times;</span> <!-- onclick="closeModal()" -->
-                <p>MODAL TEXT</p>
+                <span class="close" onclick="hideModal()">&times;</span> <!-- onclick="closeModal()" -->
+                <img id="modal-content-image" src="../../assets/images/odger/instructions/odger-instruction-01.png" alt="">
               </div>
             </div>
+
           </section>
 
           <section id="footer-content-instruction" class="footer-content-instruction blur">
