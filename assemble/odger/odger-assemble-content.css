@@ -30,7 +30,7 @@
   height: 25px;
   width: 25px;
   border-radius: 20px;
-  background-color: white;
+  background-color: #E8D4C5;
   /*margin-right: 20px;*/
 
   -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -44,12 +44,15 @@
   transform: scale(1.25);
   box-shadow: 0px 0px 10px #a3a3a3;
 }
+#info-drag-to-start {
+  color: #E8D4C5;
+}
 .container {
   height: 3px;
   width: 3px;
-  background-color: white;
+  background-color: #E8D4C5;
   background-clip: padding-box;
-  border: 12px solid rgba(234, 234, 234, 0.0);
+  border: 12px solid rgba(232, 212, 197, 0.0);
   border-radius: 5px;
 }
 .container-trigger {
@@ -57,9 +60,10 @@
   justify-content: center;
   align-items: center;
   /*margin-left: 20px;*/
+  color:  #E8D4C5;
 
   height: 25px;
   width: 25px;
-  border: solid white 2px;
+  border: 2px solid rgba(232, 212, 197, 1);
   border-radius: 17.5px;
 }

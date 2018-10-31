@@ -30,11 +30,13 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    color: #E8D4C5;
 }
 
 * {
   /* border: solid red 2px; */
-  color: #E8D4C5;
+  /*color: #E8D4C5;*/
 }
 
 
@@ -78,7 +80,7 @@ h2 {
 
   font-size: .8em;
   font-weight: 400;
-  color: #585858 !important;
+  color: #585858;
 
   align-items: center;
 }
@@ -91,6 +93,8 @@ h2 {
 .side-menu-back-button {
     margin-left: -20px;
     opacity: 0;
+    color: #E8D4C5;
+
   -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -135,6 +139,7 @@ footer {
     grid-column: 2 / 3;
     justify-self: center;
     align-self: flex-end;
+    color: white !important;
 
     /* FLEXBOX INSIDE A CSS-GRID, INSIDE A CSS-GRID */
     display: flex;
@@ -197,6 +202,7 @@ progress::-webkit-progress-value {
     opacity: 0;
     margin-left: 10px;
     font-weight: 600;
+    color: #E8D4C5;
 
     -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
