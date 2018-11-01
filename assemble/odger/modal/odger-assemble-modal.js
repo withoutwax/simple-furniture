@@ -5,14 +5,28 @@ let modalContent = document.getElementById("modal-content");
 let span = document.getElementsByClassName("close")[0];
 
 let showModal = function() {
-  modal.classList.add('is-visible');
+
+    modal.style.display = "block";
+    // alert('get ready');
+    setTimeout(() => {
+        modal.classList.add('is-visible');
+    }, 100);
+
 };
 
+let removeModal = () => {
+    modal.classList.remove('is-visible');
+    setTimeout(() => {
+        modal.style.display = "none";
+    }, 1000);
+}
+
 let hideModal = function() {
-  modal.classList.remove('is-visible');
+    removeModal();
 };
+
 window.onclick = function(event) {
     if (event.target == modal) {
-        modal.classList.remove('is-visible');
+        removeModal();
     }
 }
