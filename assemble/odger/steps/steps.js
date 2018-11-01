@@ -330,6 +330,8 @@ function autoAnimation(data) {
 function updateProgress(step) {
     let stepTitle;
     let stepInstruction;
+
+    let instructionImage;
     // STEP 02 Lay it down to the left side.
     // STEP 03 Remove everything except for two metal bars and two metal plates.
     // STEP 04 Remove everything except for two metal bars and two metal plates STEP 04.
@@ -339,25 +341,38 @@ function updateProgress(step) {
         case 2:
             stepTitle = 'STEP 02';
             stepInstruction = "Lay it down to the left side.";
+
+            instructionImage = "../../assets/images/odger/instructions/odger-instruction-01.png";
             break;
         case 3:
             stepTitle = 'STEP 03';
             stepInstruction = "Remove everything except for two metal bars and two metal plates.";
+
+            instructionImage = "../../assets/images/odger/instructions/odger-instruction-02.png";
             break;
         case 4:
             stepTitle = 'STEP 04';
             stepInstruction = "Remove everything except for two metal bars and two metal plates. STEP 04";
+
+            instructionImage = "../../assets/images/odger/instructions/odger-instruction-03.png";
             break;
         case 5:
             stepTitle = 'STEP 05';
             stepInstruction = "Remove everything except for two metal bars and two metal plates. STEP 05";
+
+            instructionImage = "../../assets/images/odger/instructions/odger-instruction-04.png";
             break;
         case 6:
             stepTitle = 'STEP 06';
             stepInstruction = 'Remove everything except for two metal bars and two metal plates. STEP 06.';
+
+            instructionImage = "../../assets/images/odger/instructions/odger-instruction-05.png";
             break;
     }
     document.getElementById('footer-instruction-step').innerHTML = stepTitle;
     document.getElementById('footer-instruction-step-02').innerHTML = stepInstruction;
     document.getElementById('content-progress').value = step;
+
+    // Changing the image on the instructions
+    document.getElementById('modal-content-image').src=instructionImage;
 }
