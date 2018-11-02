@@ -406,57 +406,57 @@ function updateProgress(step) {
     switch (step) {
         case 2:
             stepTitle = 'STEP 02';
-            stepInstruction = "Lay it down to the left side.";
+            stepInstruction = "Insert each metal plate in the corresponding bars.";
 
-            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-01.png";
+            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-02-03.png";
             break;
         case 3:
             stepTitle = 'STEP 03';
-            stepInstruction = "Remove everything except for two metal bars and two metal plates.";
+            stepInstruction = " Insert back metal plate in the middle of the cabinet, then slide it backwards flush with the left and right plates.";
 
-            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-02.png";
+            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-02-03.png";
             break;
         case 4:
             stepTitle = 'STEP 04';
-            stepInstruction = "Remove everything except for two metal bars and two metal plates. STEP 04";
-
-            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-03.png";
-            break;
-        case 5:
-            stepTitle = 'STEP 05';
-            stepInstruction = "Remove everything except for two metal bars and two metal plates. STEP 05";
+            stepInstruction = " Insert bottom metal plate. Push down.";
 
             instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-04.png";
             break;
+        case 5:
+            stepTitle = 'STEP 05';
+            stepInstruction = "Insert cabinet legs into the body of the cabinet.";
+
+            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-05-06.png";
+            break;
         case 6:
             stepTitle = 'STEP 06';
-            stepInstruction = 'Remove everything except for two metal bars and two metal plates. STEP 06.';
+            stepInstruction = 'Repeat the previous step for the back legs.';
 
-            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-05.png";
+            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-05-06.png";
             break;
         case 7:
             stepTitle = 'STEP 07';
-            stepInstruction = 'Remove everything except for two metal bars and two metal plates. STEP 06.';
+            stepInstruction = 'Secure all cabinet legs with the provided screws.';
 
-            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-05.png";
+            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-07.png";
             break;
         case 8:
             stepTitle = 'STEP 08';
-            stepInstruction = 'Remove everything except for two metal bars and two metal plates. STEP 06.';
+            stepInstruction = 'Insert left cabinet door. Make sure it snaps into place.';
 
-            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-05.png";
+            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-08.png";
             break;
         case 9:
             stepTitle = 'STEP 09';
-            stepInstruction = 'Remove everything except for two metal bars and two metal plates. STEP 06.';
+            stepInstruction = 'Insert hanger rod into corresponding slots.';
 
-            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-05.png";
+            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-09-10.png";
             break;
         case 10:
             stepTitle = 'STEP 10';
-            stepInstruction = 'Remove everything except for two metal bars and two metal plates. STEP 06.';
+            stepInstruction = 'Repeat the previous two steps for the right cabinet door.';
 
-            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-05.png";
+            instructionImage = "../../assets/images/lixhult/instructions/lixhult-instruction-09-10.png";
             break;
     }
     document.getElementById('footer-instruction-step').innerHTML = stepTitle;
@@ -464,5 +464,5 @@ function updateProgress(step) {
     document.getElementById('content-progress').value = step;
 
     // Changing the image on the instructions
-    // document.getElementById('modal-content-image').src=instructionImage;
+    document.getElementById('modal-content-image').src=instructionImage;
 }
