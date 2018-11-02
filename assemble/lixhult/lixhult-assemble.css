@@ -1,11 +1,11 @@
 :root {
-    --lixhult-image-01: url("../../assets/images/lixhult/lixhult_step_01_10.jpg");
-    --lixhult-image-02: url("../../assets/images/lixhult/lixhult_step_02_10.jpg");
-    --lixhult-image-03: url("../../assets/images/lixhult/lixhult_step_03_10.jpg");
-    --lixhult-image-04: url("../../assets/images/lixhult/lixhult_step_04_10.jpg");
-    --lixhult-image-05: url("../../assets/images/lixhult/lixhult_step_05_10.jpg");
+    --lixhult-image-01: url("../../assets/images/lixhult/lixhult_step_01_80.jpg");
+    --lixhult-image-02: url("../../assets/images/lixhult/lixhult_step_02_80.jpg");
+    --lixhult-image-03: url("../../assets/images/lixhult/lixhult_step_03_80.jpg");
+    --lixhult-image-04: url("../../assets/images/lixhult/lixhult_step_04_80.jpg");
+    --lixhult-image-05: url("../../assets/images/lixhult/lixhult_step_05_80.jpg");
 
-    --lixhult-image-current: url("../../assets/images/lixhult/lixhult_step_01_10.jpg");
+    --lixhult-image-current: url("../../assets/images/lixhult/lixhult_step_01_80.jpg");
     --lixhult-image-position: "0px 0px";
 }
 
@@ -13,12 +13,12 @@ html {
   height: 100%;
 }
 body {
-    background-image: url("../../assets/images/lixhult/lixhult_step_01_10.jpg"),
-    url("../../assets/images/lixhult/lixhult_step_02_10.jpg"),
-    url("../../assets/images/lixhult/lixhult_step_03_10.jpg"),
-    url("../../assets/images/lixhult/lixhult_step_04_10.jpg"),
-    url("../../assets/images/lixhult/lixhult_step_05_10.jpg"),
-    url("../../assets/images/lixhult/lixhult_step_06_10.jpg");
+    background-image: url("../../assets/images/lixhult/lixhult_step_01_80.jpg"),
+    url("../../assets/images/lixhult/lixhult_step_02_80.jpg"),
+    url("../../assets/images/lixhult/lixhult_step_03_80.jpg"),
+    url("../../assets/images/lixhult/lixhult_step_04_80.jpg"),
+    url("../../assets/images/lixhult/lixhult_step_05_80.jpg"),
+    url("../../assets/images/lixhult/lixhult_step_06_80.jpg");
 
   background-repeat: no-repeat;
   background-position: var(--lixhult-image-position); /* horizontal vertical */

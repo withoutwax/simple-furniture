@@ -1,14 +1,23 @@
 .background-gif-1 {
-    /* background-image: url("../../assets/images/odger/Step_1/Auto_18-21/18-21_lowres.jpg") !important; */
-
   -webkit-animation: sprite-1 .8s steps(5) 1;
   -moz-animation: sprite-1 .8s steps(5) 1;
   -ms-animation: sprite-1 .8s steps(5) 1;
   -o-animation: sprite-1 .8s steps(5) 1;
   animation: sprite-1 .8s steps(5) 1;
 }
-
 @keyframes sprite-1 {
   from{background-position-y:66.66666667%;}
+  to{background-position-y:100%;}
+}
+
+.background-gif-2 {
+  -webkit-animation: sprite-2 3s steps(24) 1;
+  -moz-animation: sprite-2 3s steps(24) 1;
+  -ms-animation: sprite-2 3s steps(24) 1;
+  -o-animation: sprite-2 3s steps(24) 1;
+  animation: sprite-2 3s steps(24) 1;
+}
+@keyframes sprite-2 {
+  from{background-position-y:17.24137931034%;}
   to{background-position-y:100%;}
 }

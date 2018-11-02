@@ -34,7 +34,7 @@ function updateSteps(step) {
         case 2:
             url = 'url("../../assets/images/lixhult/lixhult_step_02_80.jpg")';
             // UPDATING THE IMAGE FOR THE BLUR EFFECT
-            document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_02" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container" id="container05" ondragover="allowDrop(event)"></div><div class="container" id="container06" ondragover="allowDrop(event)"></div><div class="container" id="container07" ondragover="allowDrop(event)"></div><div class="container" id="container08" ondragover="allowDrop(event)"></div><div class="container" id="container09" ondragover="allowDrop(event)"></div><div class="container" id="container10" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container11" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
+            document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_02" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container" id="container05" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container06" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
             break;
         case 3:
             url = 'url("../../assets/images/lixhult/lixhult_step_03_80.jpg")';
@@ -103,34 +103,19 @@ function allowDrop(e) {
         case 2:
             switch (e.target.id) {
                 case 'container02':
-                    position = "0px 7.69%";
+                    position = "0px 3.44827586%";
                     break;
                 case 'container03':
-                    position = "0px 15.38%";
+                    position = "0px 6.896551724%";
                     break;
                 case 'container04':
-                    position = "0px 23.07%";
+                    position = "0px 10.344827586%";
                     break;
                 case 'container05':
-                    position = "0px 30.76%";
+                    position = "0px 13.7931034482%";
                     break;
                 case 'container06':
-                    position = "0px 38.46%";
-                    break;
-                case 'container07':
-                    position = "0px 46.15%";
-                    break;
-                case 'container08':
-                    position = "0px 53.84%";
-                    break;
-                case 'container09':
-                    position = "0px 61.53%";
-                    break;
-                case 'container10':
-                    position = "0px 69.23%";
-                    break;
-                case 'container11':
-                    position = "0px 76.92%";
+                    position = "0px 17.24137931034%";
                     break;
                 default:
                     position = "0px 0%";
@@ -359,5 +344,5 @@ function updateProgress(step) {
     document.getElementById('content-progress').value = step;
 
     // Changing the image on the instructions
-    document.getElementById('modal-content-image').src=instructionImage;
+    // document.getElementById('modal-content-image').src=instructionImage;
 }

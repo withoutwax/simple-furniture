@@ -1,21 +1,25 @@
 .background-gif-1 {
-    /* background-image: url("../../assets/images/odger/Step_1/Auto_18-21/18-21_lowres.jpg") !important; */
-
   -webkit-animation: sprite-1 .7s steps(3) 1;
   -moz-animation: sprite-1 .7s steps(3) 1;
   -ms-animation: sprite-1 .7s steps(3) 1;
   -o-animation: sprite-1 .7s steps(3) 1;
   animation: sprite-1 .7s steps(3) 1;
 }
+@keyframes sprite-1 {
+  from{background-position-y:83.3333333%;}
+  to{background-position-y:100%;}
+}
 
 .background-gif-2 {
-    /* background-image: url("../../assets/images/odger/Step_1/Auto_18-21/18-21_lowres.jpg") !important; */
-
   -webkit-animation: sprite-2 .6s steps(3) 1;
   -moz-animation: sprite-2 .6s steps(3) 1;
   -ms-animation: sprite-2 .6s steps(3) 1;
   -o-animation: sprite-2 .6s steps(3) 1;
   animation: sprite-2 .6s steps(3) 1;
+}
+@keyframes sprite-2 {
+  from{background-position-y:76.92%;}
+  to{background-position-y:100%;}
 }
 
 .background-gif-3 {
@@ -56,16 +60,6 @@
   -ms-animation: sprite-6 1.5s steps(12) 1;
   -o-animation: sprite-6 1.5s steps(12) 1;
   animation: sprite-6 1.5s steps(12) 1;
-}
-
-@keyframes sprite-1 {
-  from{background-position-y:83.3333333%;}
-  to{background-position-y:100%;}
-}
-
-@keyframes sprite-2 {
-  from{background-position-y:76.92%;}
-  to{background-position-y:100%;}
 }
 
 @keyframes sprite-3 {
