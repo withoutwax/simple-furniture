@@ -22,9 +22,8 @@ body {
     url("../../assets/images/odger/odger_step_05_10.jpg"),
     url("../../assets/images/odger/odger_step_06_10.jpg");
 
-    /*background-image: var(--odger-image-current); */
     background-repeat: no-repeat;
-    background-position: var(--odger-image-position); /* horizontal vertical */
+    background-position: var(--odger-image-position);
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -33,26 +32,6 @@ body {
 
     color: #E8D4C5;
 }
-
-* {
-  /* border: solid red 2px; */
-  /*color: #E8D4C5;*/
-}
-
-
-
-/*h1 {
-  font-size: 5.5em;
-  font-weight: 600;
-  margin: 0;
-  line-height: .7em;
-}
-h2 {
-  font-family: 'Hurme-Geometric-Sans';
-  font-size: 3.2em;
-  font-weight: normal;
-  margin: 0;
-}*/
 
 .main-container {
   min-height: 100%; /* NOT CLEAN CODE */
@@ -109,22 +88,21 @@ h2 {
 
 /* FOOTER */
 footer {
-  grid-column: 1 / 4;
-  grid-row: 3 / 4;
-  align-self: flex-end;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    align-self: flex-end;
 
-  /* GRID INSIDE GRID */
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
+    /* GRID INSIDE GRID */
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
 
+    font-family: 'Hurme-Geometric-Sans';
+    font-weight: 400;
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+    color: #585858 !important;
 
-  font-family: 'Hurme-Geometric-Sans';
-  font-weight: 400;
-  font-size: 0.8em;
-  letter-spacing: 0.05em;
-  color: #585858 !important;
-
-  padding-bottom: 2%;
+    padding-bottom: 2%;
 }
 
 .footer-container {
@@ -159,6 +137,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     min-width: 500px;
+    font-weight: 400;
 
     margin-top: auto;
 }
@@ -216,6 +195,7 @@ progress::-webkit-progress-value {
     margin-left: 15px;
 }
 
+/*BLUR / OPACITY*/
 .blur {
     position: relative;
     background: hsla(0, 0%, 10%, .22);
@@ -223,10 +203,10 @@ progress::-webkit-progress-value {
     overflow: hidden;
 }
 .content > .blur {
-  position: relative;
-  background: hsla(0, 5%, 10%, .42);
+    position: relative;
+    background: hsla(0, 5%, 10%, .42);
   /* box-shadow: 5px 3px 30px black; */
-  overflow: hidden;
+    overflow: hidden;
 }
 .blur::before {
     /*background-image: inherit;*/

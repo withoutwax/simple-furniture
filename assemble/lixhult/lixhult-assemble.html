@@ -4,14 +4,17 @@
     <meta charset="utf-8">
     <title>Lixhult-assemble</title>
     <link rel="stylesheet" href="../../css/typeface.css">
+    <link rel="stylesheet" href="../../css/util.css">
     <link rel="stylesheet" href="lixhult-assemble.css">
-    <link rel="stylesheet" href="lixhult-assemble-content.css"> <!-- MIGHT NOT NEED THIS -->
+    <link rel="stylesheet" href="lixhult-assemble-content.css">
+    <link rel="stylesheet" href="./steps/lixhult-assemble-content-steps.css">
+    <link rel="stylesheet" href="./modal/lixhult-assemble-modal.css">
   </head>
 
   <body>
-    <main class="main-container">
+    <main id="main-container" class="main-container">
       <article class="main-nav-title">
-        <img src="../../assets/images/global_icons/simplefurniture_w.png" alt="simplefurniture">
+          <a href="../../index.html"><img class="icon-hover-01" src="../../assets/images/global_icons/simplefurniture_w.png" alt="simplefurniture" style="width:17.37px"></a>
         <!-- <div>simple <br> furniture</div> -->
       </article>
       <article class="main-nav-logo">
@@ -24,24 +27,38 @@
 
       <!-- SIDE MENU -->
       <article class="side-menu">
-        <img src="../../assets/images/global_icons/<_w.png" alt="">
-        <div class="side-menu-back-button"><a href="../../lixhult.html">Back to LIXHULT</a></div>
+          <a class="side-menu-back-arrow" href="../../lixhult.html"><img src="../../assets/images/global_icons/<_w.png" alt="Back-to-lixhult" height="40"></a>
+          <div class="side-menu-back-button">BACK TO LIXHULT</div>
       </article>
 
       <!-- CONTENT -->
       <section class="content">
-        <div class="content-lixhult-button" id="content-steps">
-
-        </div>
-        <p id="info-drag-to-start">Drag to start</p>
+        <div class="content-lixhult-button" id="content-steps"></div>
+        <p id="info-drag-to-start">DRAG TO START</p>
       </section>
 
       <footer>
           <section class="footer-container">
-            <img src="../../assets/images/lixhult/lixhult_inst.png" alt="lixhult-inst" height="100">
+            <img id="footer-instruction" onclick="showModal()" src="../../assets/images/lixhult/lixhult_inst.png" alt="lixhult-inst" height="100">
+            <div id="footer-instruction-text">INSTRUCTION</div>
+            <!-- MODAL -->
+                <!-- CODE - MODAL -->
+            <!-- MODAL END -->
+          </section>
+
+          <section id="footer-content-instruction" class="footer-content-instruction blur">
+              <p id="footer-instruction-step" style="font-weight:200">STEP 01</p>
+              <p id="footer-instruction-step-02">Remove everything except for bottom part of the chair.</p>
+              <div class="footer-content-instruction-progress">
+                  <p>01</p>
+                  <progress id="content-progress" value="1" max="6">0%</progress>
+                  <p>06</p>
+              </div>
           </section>
       </footer>
     </main>
+    <!-- <script type="text/javascript" src="./side-menu/lixhult-assemble-side-menu.js"></script> -->
+    <script type="text/javascript" src="./modal/lixhult-assemble-modal.js"></script>
     <script type="text/javascript" src="./steps/steps.js"></script>
     <script type="text/javascript" src="lixhult-assemble.js"></script>
   </body>

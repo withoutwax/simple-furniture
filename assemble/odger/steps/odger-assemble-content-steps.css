@@ -51,11 +51,11 @@
 .background-gif-6 {
     /* background-image: url("../../assets/images/odger/Step_1/Auto_18-21/18-21_lowres.jpg") !important; */
 
-  -webkit-animation: sprite-6 2s steps(12) 1;
-  -moz-animation: sprite-6 2s steps(12) 1;
-  -ms-animation: sprite-6 2s steps(12) 1;
-  -o-animation: sprite-6 2s steps(12) 1;
-  animation: sprite-6 2s steps(12) 1;
+  -webkit-animation: sprite-6 1.5s steps(12) 1;
+  -moz-animation: sprite-6 1.5s steps(12) 1;
+  -ms-animation: sprite-6 1.5s steps(12) 1;
+  -o-animation: sprite-6 1.5s steps(12) 1;
+  animation: sprite-6 1.5s steps(12) 1;
 }
 
 @keyframes sprite-1 {

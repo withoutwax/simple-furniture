@@ -1,4 +1,6 @@
 let step;
+let preloadImg;
+let root = document.documentElement;
 
 window.onload = function() {
     console.log("stepsReady, ready");
@@ -9,55 +11,42 @@ window.onload = function() {
 
 
 function drag(e) {
+    console.log(step);
+    let dragObject = document.getElementById(e.target.id);
+    let infoElement = document.getElementById('info-drag-to-start');
 
-  let dragObject = document.getElementById(e.target.id);
-  let infoElement = document.getElementById('info-drag-to-start');
-
-  e.dataTransfer.setData("box", e.target.id);
-  fadeOutAnim(infoElement);
+    e.dataTransfer.setData("box", e.target.id);
+    fadeOutAnim(infoElement);
+    fadeOutAnim(document.getElementById("footer-content-instruction"));
 }
+
+
 
 
 // WHEN THE CURSOR IS DROPPED!
 function drop(e) {
-  e.preventDefault();
-  let data = e.dataTransfer.getData("box");
-  e.target.appendChild(document.getElementById(data));
+    e.preventDefault();
+    let data = e.dataTransfer.getData("box");
+    e.target.appendChild(document.getElementById(data));
 
-  if (data == 'box_01') {
-      // ADD CLASS FOR GIF-ANIMATION
-      document.body.classList.add('background-gif');
-
-    // DETECTING WHEN ANIMATION ENDS
-    let backgroundAnimation = document.body;
-    backgroundAnimation.addEventListener('animationend',
-     (event) => {
-       console.log(event);
-        alert( "Finished transition!" );
-
-        // REMOVE CLASS FOR GIF-ANIMATION. PREARE FOR NEXT STEP.
-        document.body.classList.remove('background-gif');
-     }, false );
-
-  } else if (data == 'box_02') {
-    console.log('For future reference');
-  }
+    // ANIMATION BETWEEN STEPS
+    autoAnimation(data);
+    fadeOutAnim(document.getElementById("content-steps"));
 }
-
-
-
-
-
-
 
 function fadeOutAnim(id) {
-  console.log('infoElement is ready to be disappeared!');
-  // this.classList.remove('first');
   id.classList.add('hide-fade');
+  id.classList.remove('appear-fade');
 }
+
 function goneAwayAnim(id) {
 
   console.log('element is ready to be gone(forever)!');
 
   id.classList.add('hide-gone');
+}
+
+function appearAgainAnim(id) {
+    id.classList.add('appear-fade');
+    id.classList.remove('hide-fade');
 }

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../../css/typeface.css">
     <link rel="stylesheet" href="../../css/util.css">
     <link rel="stylesheet" href="odger-assemble.css">
-    <link rel="stylesheet" href="odger-assemble-content.css"> <!-- MIGHT NOT NEED THIS -->
+    <link rel="stylesheet" href="odger-assemble-content.css">
     <link rel="stylesheet" href="./steps/odger-assemble-content-steps.css">
     <link rel="stylesheet" href="./modal/odger-assemble-modal.css">
   </head>
@@ -41,15 +41,13 @@
       <!-- CONTENT -->
       <section class="content">
         <div class="content-odger-button blur" id="content-steps"></div>
-        <p class="" id="info-drag-to-start">DRAG TO START</p>
+        <p id="info-drag-to-start">DRAG TO START</p>
       </section>
 
       <footer>
           <section class="footer-container">
-            <!-- <a> -->
               <img id="footer-instruction" onclick="showModal()" src="../../assets/images/odger/odger_inst.png" alt="odger-inst" height="90"> <!-- onclick="displayModal()" -->
               <div id="footer-instruction-text">INSTRUCTION</div>
-            <!-- </a> -->
 
             <!-- MODAL! -->
             <div id="modal" class="modal toggle-content">
@@ -58,21 +56,20 @@
                 <img id="modal-content-image" src="../../assets/images/odger/instructions/odger-instruction.png" alt="">
               </div>
             </div>
-
           </section>
 
           <section id="footer-content-instruction" class="footer-content-instruction blur">
               <p id="footer-instruction-step" style="font-weight:200">STEP 01</p>
               <p id="footer-instruction-step-02">Remove everything except for bottom part of the chair.</p>
               <div class="footer-content-instruction-progress">
-                  <p><strong>01</strong></p>
+                  <p>01</p>
                   <progress id="content-progress" value="1" max="6">0%</progress>
-                  <p><strong>06</strong></p>
+                  <p>06</p>
               </div>
           </section>
       </footer>
     </main>
-    <script type="text/javascript" src="./side-menu/odger-assemble-side-menu.js"></script>
+    <!-- <script type="text/javascript" src="./side-menu/odger-assemble-side-menu.js"></script> -->
     <script type="text/javascript" src="./modal/odger-assemble-modal.js"></script>
     <script type="text/javascript" src="./steps/steps.js"></script>
     <script type="text/javascript" src="odger-assemble.js"></script>
