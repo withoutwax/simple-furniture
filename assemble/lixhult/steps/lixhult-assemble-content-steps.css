@@ -21,3 +21,63 @@
   from{background-position-y:17.24137931034%;}
   to{background-position-y:100%;}
 }
+
+.background-gif-3 {
+    -webkit-animation: sprite-3 2s steps(15) 1;
+    -moz-animation: sprite-3 2s steps(15) 1;
+    -ms-animation: sprite-3 2s steps(15) 1;
+    -o-animation: sprite-3 2s steps(15) 1;
+    animation: sprite-3 2s steps(15) 1;
+}
+@keyframes sprite-3 {
+  from{background-position-y:28.571428571428571%;}
+  to{background-position-y:100%;}
+}
+
+.background-gif-4 {
+  -webkit-animation: sprite-4 2s steps(11) 1;
+  -moz-animation: sprite-4 2s steps(11) 1;
+  -ms-animation: sprite-4 2s steps(11) 1;
+  -o-animation: sprite-4 2s steps(11) 1;
+  animation: sprite-4 2s steps(11) 1;
+}
+@keyframes sprite-4 {
+  from{background-position-y:21.4285714428571429%;}
+  to{background-position-y:100%;}
+}
+
+.background-gif-5 {
+    -webkit-animation: sprite-5 1s steps(7) 1;
+    -moz-animation: sprite-5 1s steps(7) 1;
+    -ms-animation: sprite-5 1s steps(7) 1;
+    -o-animation: sprite-5 1s steps(7) 1;
+    animation: sprite-5 1s steps(7) 1;
+}
+@keyframes sprite-5 {
+  from{background-position-y:22.2222222222222%;}
+  to{background-position-y:100%;}
+}
+
+.background-gif-6 {
+    -webkit-animation: sprite-6 1.5s steps(13) 1;
+    -moz-animation: sprite-6 1.5s steps(13) 1;
+    -ms-animation: sprite-6 1.5s steps(13) 1;
+    -o-animation: sprite-6 1.5s steps(13) 1;
+    animation: sprite-6 1.5s steps(13) 1;
+}
+@keyframes sprite-6 {
+  from{background-position-y:18.75%;}
+  to{background-position-y:100%;}
+}
+
+.background-gif-7 {
+    -webkit-animation: sprite-7 5s steps(27) 1;
+    -moz-animation: sprite-7 5s steps(27) 1;
+    -ms-animation: sprite-7 5s steps(27) 1;
+    -o-animation: sprite-7 5s steps(27) 1;
+    animation: sprite-7 5s steps(27) 1;
+}
+@keyframes sprite-7 {
+  from{background-position-y:25%;}
+  to{background-position-y:100%;}
+}

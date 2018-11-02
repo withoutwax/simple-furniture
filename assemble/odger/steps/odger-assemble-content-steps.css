@@ -23,60 +23,48 @@
 }
 
 .background-gif-3 {
-    /* background-image: url("../../assets/images/odger/Step_1/Auto_18-21/18-21_lowres.jpg") !important; */
-
-  -webkit-animation: sprite-3 2s steps(14) 1;
-  -moz-animation: sprite-3 2s steps(14) 1;
-  -ms-animation: sprite-3 2s steps(14) 1;
-  -o-animation: sprite-3 2s steps(14) 1;
-  animation: sprite-3 2s steps(14) 1;
+    -webkit-animation: sprite-3 2s steps(14) 1;
+    -moz-animation: sprite-3 2s steps(14) 1;
+    -ms-animation: sprite-3 2s steps(14) 1;
+    -o-animation: sprite-3 2s steps(14) 1;
+    animation: sprite-3 2s steps(14) 1;
+}
+@keyframes sprite-3 {
+  from{background-position-y:36.36%;}
+  to{background-position-y:100%;}
 }
 
 .background-gif-4 {
-    /* background-image: url("../../assets/images/odger/Step_1/Auto_18-21/18-21_lowres.jpg") !important; */
-
   -webkit-animation: sprite-4 1s steps(5) 1;
   -moz-animation: sprite-4 1s steps(5) 1;
   -ms-animation: sprite-4 1s steps(5) 1;
   -o-animation: sprite-4 1s steps(5) 1;
   animation: sprite-4 1s steps(5) 1;
 }
-
-.background-gif-5 {
-    /* background-image: url("../../assets/images/odger/Step_1/Auto_18-21/18-21_lowres.jpg") !important; */
-
-  -webkit-animation: sprite-5 1s steps(7) 1;
-  -moz-animation: sprite-5 1s steps(7) 1;
-  -ms-animation: sprite-5 1s steps(7) 1;
-  -o-animation: sprite-5 1s steps(7) 1;
-  animation: sprite-5 1s steps(7) 1;
-}
-
-.background-gif-6 {
-    /* background-image: url("../../assets/images/odger/Step_1/Auto_18-21/18-21_lowres.jpg") !important; */
-
-  -webkit-animation: sprite-6 1.5s steps(12) 1;
-  -moz-animation: sprite-6 1.5s steps(12) 1;
-  -ms-animation: sprite-6 1.5s steps(12) 1;
-  -o-animation: sprite-6 1.5s steps(12) 1;
-  animation: sprite-6 1.5s steps(12) 1;
-}
-
-@keyframes sprite-3 {
-  from{background-position-y:36.36%;}
-  to{background-position-y:100%;}
-}
-
 @keyframes sprite-4 {
   from{background-position-y:61.53%;}
   to{background-position-y:100%;}
 }
 
+.background-gif-5 {
+    -webkit-animation: sprite-5 1s steps(7) 1;
+    -moz-animation: sprite-5 1s steps(7) 1;
+    -ms-animation: sprite-5 1s steps(7) 1;
+    -o-animation: sprite-5 1s steps(7) 1;
+    animation: sprite-5 1s steps(7) 1;
+}
 @keyframes sprite-5 {
   from{background-position-y:36.36%;}
   to{background-position-y:100%;}
 }
 
+.background-gif-6 {
+    -webkit-animation: sprite-6 1.5s steps(12) 1;
+    -moz-animation: sprite-6 1.5s steps(12) 1;
+    -ms-animation: sprite-6 1.5s steps(12) 1;
+    -o-animation: sprite-6 1.5s steps(12) 1;
+    animation: sprite-6 1.5s steps(12) 1;
+}
 @keyframes sprite-6 {
   from{background-position-y:33.33%;}
   to{background-position-y:100%;}

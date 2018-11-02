@@ -4,6 +4,11 @@
     --lixhult-image-03: url("../../assets/images/lixhult/lixhult_step_03_80.jpg");
     --lixhult-image-04: url("../../assets/images/lixhult/lixhult_step_04_80.jpg");
     --lixhult-image-05: url("../../assets/images/lixhult/lixhult_step_05_80.jpg");
+    --lixhult-image-06: url("../../assets/images/lixhult/lixhult_step_06_80.jpg");
+    --lixhult-image-07: url("../../assets/images/lixhult/lixhult_step_07_80.jpg");
+    --lixhult-image-08: url("../../assets/images/lixhult/lixhult_step_08_80.jpg");
+    --lixhult-image-09: url("../../assets/images/lixhult/lixhult_step_09_80.jpg");
+    --lixhult-image-10: url("../../assets/images/lixhult/lixhult_step_10_80.jpg");
 
     --lixhult-image-current: url("../../assets/images/lixhult/lixhult_step_01_80.jpg");
     --lixhult-image-position: "0px 0px";
@@ -18,7 +23,11 @@ body {
     url("../../assets/images/lixhult/lixhult_step_03_80.jpg"),
     url("../../assets/images/lixhult/lixhult_step_04_80.jpg"),
     url("../../assets/images/lixhult/lixhult_step_05_80.jpg"),
-    url("../../assets/images/lixhult/lixhult_step_06_80.jpg");
+    url("../../assets/images/lixhult/lixhult_step_06_80.jpg"),
+    url("../../assets/images/lixhult/lixhult_step_07_80.jpg"),
+    url("../../assets/images/lixhult/lixhult_step_08_80.jpg"),
+    url("../../assets/images/lixhult/lixhult_step_09_80.jpg"),
+    url("../../assets/images/lixhult/lixhult_step_10_80.jpg");
 
   background-repeat: no-repeat;
   background-position: var(--lixhult-image-position); /* horizontal vertical */
