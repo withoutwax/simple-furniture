@@ -346,25 +346,25 @@ function updateProgress(step) {
             break;
         case 3:
             stepTitle = 'STEP 03';
-            stepInstruction = "Remove everything except for two metal bars and two metal plates.";
+            stepInstruction = "Add the back of the chair to the legs.";
 
             instructionImage = "../../assets/images/odger/instructions/odger-instruction-02.png";
             break;
         case 4:
             stepTitle = 'STEP 04';
-            stepInstruction = "Remove everything except for two metal bars and two metal plates. STEP 04";
+            stepInstruction = "Insert the key between the back of the chair and the legs.";
 
             instructionImage = "../../assets/images/odger/instructions/odger-instruction-03.png";
             break;
         case 5:
             stepTitle = 'STEP 05';
-            stepInstruction = "Remove everything except for two metal bars and two metal plates. STEP 05";
+            stepInstruction = "Lock the back and legs by turning the key inwards.";
 
             instructionImage = "../../assets/images/odger/instructions/odger-instruction-04.png";
             break;
         case 6:
             stepTitle = 'STEP 06';
-            stepInstruction = 'Remove everything except for two metal bars and two metal plates. STEP 06.';
+            stepInstruction = 'Place the chair into upright position.';
 
             instructionImage = "../../assets/images/odger/instructions/odger-instruction-05.png";
             break;
