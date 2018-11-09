@@ -88,15 +88,15 @@ function drop(e) {
 }
 
 function fadeOutAnim(id) {
-  id.classList.add('hide-fade');
-  id.classList.remove('appear-fade');
+    id.classList.add('hide-fade');
+    id.classList.remove('appear-fade');
 }
 
 function goneAwayAnim(id) {
 
-  console.log('element is ready to be gone(forever)!');
+    console.log('element is ready to be gone(forever)!');
 
-  id.classList.add('hide-gone');
+    id.classList.add('hide-gone');
 }
 
 function appearAgainAnim(id) {

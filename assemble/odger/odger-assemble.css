@@ -10,7 +10,7 @@
 }
 
 html {
-  height: 100%;
+    height: 100%;
 }
 
 body {
@@ -34,39 +34,39 @@ body {
 }
 
 .main-container {
-  min-height: 100%; /* NOT CLEAN CODE */
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 100px 1fr auto;
-  padding: 0% 3% 0% 3%; /*TRBL*/
+    min-height: 100%; /* NOT CLEAN CODE */
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 100px 1fr auto;
+    padding: 0% 3% 0% 3%; /*TRBL*/
 }
 
 .main-nav-title {
-  align-self: center;
+    align-self: center;
 }
 .main-nav-logo {
-  align-self: center;
-  justify-self: center;
+    align-self: center;
+    justify-self: center;
 }
 .main-nav-search {
-  align-self: center;
-  justify-self: flex-end;
+    align-self: center;
+    justify-self: flex-end;
 }
 
 .side-menu {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 
-  font-size: .8em;
-  font-weight: 400;
-  color: #585858;
+    font-size: .8em;
+    font-weight: 400;
+    color: #585858;
 
-  align-items: center;
+    align-items: center;
 }
 .side-menu > * {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 
-  /* border: solid red 2px; */
+    /* border: solid red 2px; */
 }
 
 .side-menu-back-button {
@@ -74,12 +74,12 @@ body {
     opacity: 0;
     color: #E8D4C5;
 
-  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .side-menu-back-button::after {
-  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .side-menu-back-arrow:hover ~ .side-menu-back-button {
     margin-left: -15px;
@@ -142,7 +142,7 @@ footer {
     margin-top: auto;
 }
 #footer-instruction-step-02 {
-  margin-top: 10px;
+    margin-top: 10px;
     font-weight: 600;
 }
 progress {
@@ -155,12 +155,12 @@ progress {
 }
 progress::-webkit-progress-bar {
     background: rgba(173, 173, 173, 0.2);
-	border-radius: 50px;
+    border-radius: 50px;
 
 }
 progress::-webkit-progress-value {
     border-radius: 50px;
-	background: white;
+    background: white;
 }
 
 #footer-instruction {
@@ -205,7 +205,7 @@ progress::-webkit-progress-value {
 .content > .blur {
     position: relative;
     background: hsla(0, 5%, 10%, .42);
-  /* box-shadow: 5px 3px 30px black; */
+    /* box-shadow: 5px 3px 30px black; */
     overflow: hidden;
 }
 .blur::before {

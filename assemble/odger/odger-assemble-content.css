@@ -1,14 +1,14 @@
 .content {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 60vh 50px;
-  justify-items: center;
-  align-items: flex-end;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60vh 50px;
+    justify-items: center;
+    align-items: flex-end;
 
-  margin: 0;
-  width: 100%;
+    margin: 0;
+    width: 100%;
 
-  /* border: 1px yellow solid; */
+    /* border: 1px yellow solid; */
 }
 
 .content-odger-button {
@@ -21,41 +21,41 @@
 }
 
 .drag_item {
-  height: 25px;
-  width: 25px;
-  border-radius: 20px;
-  background-color: #E8D4C5;
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    background-color: #E8D4C5;
 
-  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .drag_item::after {
-  -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .drag_item:hover {
-  transform: scale(1.25);
-  box-shadow: 0px 0px 10px #a3a3a3;
+    transform: scale(1.25);
+    box-shadow: 0px 0px 10px #a3a3a3;
 }
 #info-drag-to-start {
-  color: #E8D4C5;
+    color: #E8D4C5;
 }
 .container {
-  height: 3px;
-  width: 3px;
-  background-color: #E8D4C5;
-  background-clip: padding-box;
-  border: 12px solid rgba(232, 212, 197, 0.0);
-  border-radius: 5px;
+    height: 3px;
+    width: 3px;
+    background-color: #E8D4C5;
+    background-clip: padding-box;
+    border: 12px solid rgba(232, 212, 197, 0.0);
+    border-radius: 5px;
 }
 .container-trigger {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color:  #E8D4C5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #E8D4C5;
 
-  height: 25px;
-  width: 25px;
-  border: 2px solid rgba(232, 212, 197, 1);
-  border-radius: 17.5px;
+    height: 25px;
+    width: 25px;
+    border: 2px solid rgba(232, 212, 197, 1);
+    border-radius: 17.5px;
 }
