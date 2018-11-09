@@ -95,11 +95,11 @@
 }
 
 .background-gif-9 {
-    -webkit-animation: sprite-9 1.2s steps(13) 1;
-    -moz-animation: sprite-9 1.2s steps(13) 1;
-    -ms-animation: sprite-9 1.2s steps(13) 1;
-    -o-animation: sprite-9 1.2s steps(13) 1;
-    animation: sprite-9 1.2s steps(13) 1;
+    -webkit-animation: sprite-9 2s steps(13) 1;
+    -moz-animation: sprite-9 2s steps(13) 1;
+    -ms-animation: sprite-9 2s steps(13) 1;
+    -o-animation: sprite-9 2s steps(13) 1;
+    animation: sprite-9 2s steps(13) 1;
 }
 @keyframes sprite-9 {
   from{background-position-y:35%;}
@@ -107,11 +107,11 @@
 }
 
 .background-gif-10 {
-    -webkit-animation: sprite-10 0.7s steps(5) 1;
-    -moz-animation: sprite-10 0.7s steps(5) 1;
-    -ms-animation: sprite-10 0.7s steps(5) 1;
-    -o-animation: sprite-10 0.7s steps(5) 1;
-    animation: sprite-10 0.7s steps(5) 1;
+    -webkit-animation: sprite-10 1s steps(5) 1;
+    -moz-animation: sprite-10 1s steps(5) 1;
+    -ms-animation: sprite-10 1s steps(5) 1;
+    -o-animation: sprite-10 1s steps(5) 1;
+    animation: sprite-10 1s steps(5) 1;
 }
 @keyframes sprite-10 {
   from{background-position-y:50%;}
