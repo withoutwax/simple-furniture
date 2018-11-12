@@ -2,8 +2,8 @@ function initialize(step) {
 
     switch (step) {
         case 1:
-            document.body.style.backgroundImage = 'url("../../assets/images/odger/odger_step_01_10.jpg")';
-            root.style.setProperty('--odger-image-current', 'url("../../assets/images/odger/odger_step_01_10.jpg")');
+            document.body.style.backgroundImage = 'url("../../assets/images/odger/odger_step_01_80.jpg")';
+            root.style.setProperty('--odger-image-current', 'url("../../assets/images/odger/odger_step_01_80.jpg")');
             document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_01" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container" id="container05" ondragover="allowDrop(event)"></div><div class="container" id="container06" ondragover="allowDrop(event)"></div><div class="container" id="container07" ondragover="allowDrop(event)"></div><div class="container" id="container08" ondragover="allowDrop(event)"></div><div class="container" id="container09" ondragover="allowDrop(event)"></div><div class="container" id="container10" ondragover="allowDrop(event)"></div><div class="container" id="container11" ondragover="allowDrop(event)"></div><div class="container" id="container12" ondragover="allowDrop(event)"></div><div class="container" id="container13" ondragover="allowDrop(event)"></div><div class="container" id="container14" ondragover="allowDrop(event)"></div><div class="container" id="container15" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container16" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
 
             // <div class="drag_item" id="box_01" draggable="true" ondragstart="drag(event)"></div>
@@ -32,24 +32,24 @@ function updateSteps(step) {
     let url;
     switch (step) {
         case 2:
-            url = 'url("../../assets/images/odger/odger_step_02_10.jpg")';
+            url = 'url("../../assets/images/odger/odger_step_02_80.jpg")';
             // UPDATING THE IMAGE FOR THE BLUR EFFECT
             document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_02" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container" id="container05" ondragover="allowDrop(event)"></div><div class="container" id="container06" ondragover="allowDrop(event)"></div><div class="container" id="container07" ondragover="allowDrop(event)"></div><div class="container" id="container08" ondragover="allowDrop(event)"></div><div class="container" id="container09" ondragover="allowDrop(event)"></div><div class="container" id="container10" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container11" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
             break;
         case 3:
-            url = 'url("../../assets/images/odger/odger_step_03_10.jpg")';
+            url = 'url("../../assets/images/odger/odger_step_03_80.jpg")';
             document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_03" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container" id="container05" ondragover="allowDrop(event)"></div><div class="container" id="container06" ondragover="allowDrop(event)"></div><div class="container" id="container07" ondragover="allowDrop(event)"></div><div class="container" id="container08" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container09" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
             break;
         case 4:
-            url = 'url("../../assets/images/odger/odger_step_04_10.jpg")';
+            url = 'url("../../assets/images/odger/odger_step_04_80.jpg")';
             document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_04" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container" id="container05" ondragover="allowDrop(event)"></div><div class="container" id="container06" ondragover="allowDrop(event)"></div><div class="container" id="container07" ondragover="allowDrop(event)"></div><div class="container" id="container08" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container09" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
             break;
         case 5:
-            url = 'url("../../assets/images/odger/odger_step_05_10.jpg")';
+            url = 'url("../../assets/images/odger/odger_step_05_80.jpg")';
             document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_05" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container05" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
             break;
         case 6:
-            url = 'url("../../assets/images/odger/odger_step_06_10.jpg")';
+            url = 'url("../../assets/images/odger/odger_step_06_80.jpg")';
             document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_06" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container" id="container05" ondragover="allowDrop(event)"></div><div class="container" id="container06" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container07" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
             break;
         default:
