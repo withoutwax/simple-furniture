@@ -47,26 +47,26 @@
 }
 
 .background-gif-5 {
-    -webkit-animation: sprite-5 1s steps(7) 1;
-    -moz-animation: sprite-5 1s steps(7) 1;
-    -ms-animation: sprite-5 1s steps(7) 1;
-    -o-animation: sprite-5 1s steps(7) 1;
-    animation: sprite-5 1s steps(7) 1;
+    -webkit-animation: sprite-5 1s steps(5) 1;
+    -moz-animation: sprite-5 1s steps(5) 1;
+    -ms-animation: sprite-5 1s steps(5) 1;
+    -o-animation: sprite-5 1s steps(5) 1;
+    animation: sprite-5 1s steps(5) 1;
 }
 @keyframes sprite-5 {
-  from{background-position-y:22.2222222222222%;}
+  from{background-position-y:44.4444444444444%;}
   to{background-position-y:100%;}
 }
 
 .background-gif-6 {
-    -webkit-animation: sprite-6 1.5s steps(13) 1;
-    -moz-animation: sprite-6 1.5s steps(13) 1;
-    -ms-animation: sprite-6 1.5s steps(13) 1;
-    -o-animation: sprite-6 1.5s steps(13) 1;
-    animation: sprite-6 1.5s steps(13) 1;
+    -webkit-animation: sprite-6 1.5s steps(12) 1;
+    -moz-animation: sprite-6 1.5s steps(12) 1;
+    -ms-animation: sprite-6 1.5s steps(12) 1;
+    -o-animation: sprite-6 1.5s steps(12) 1;
+    animation: sprite-6 1.5s steps(12) 1;
 }
 @keyframes sprite-6 {
-  from{background-position-y:18.75%;}
+  from{background-position-y:25%;}
   to{background-position-y:100%;}
 }
 

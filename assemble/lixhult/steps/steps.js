@@ -46,11 +46,11 @@ function updateSteps(step) {
             break;
         case 5:
             url = 'url("../../assets/images/lixhult/lixhult_step_05_80.jpg")';
-            document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_05" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container03" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
+            document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_05" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container05" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
             break;
         case 6:
             url = 'url("../../assets/images/lixhult/lixhult_step_06_80.jpg")';
-            document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_06" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container04" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
+            document.getElementById('content-steps').innerHTML = '<div class="drag_item" id="box_06" draggable="true" ondragstart="drag(event)"></div><div class="container" id="container02" ondragover="allowDrop(event)"></div><div class="container" id="container03" ondragover="allowDrop(event)"></div><div class="container" id="container04" ondragover="allowDrop(event)"></div><div class="container-trigger" id="container05" ondrop="drop(event)" ondragover="allowDrop(event)"></div>';
             break;
         case 7:
             url = 'url("../../assets/images/lixhult/lixhult_step_07_80.jpg")';
@@ -184,6 +184,12 @@ function allowDrop(e) {
                 case 'container03':
                     position = "0px 22.22222222222222%";
                     break;
+                case 'container04':
+                    position = "0px 33.33333333333333%";
+                    break;
+                case 'container05':
+                    position = "0px 44.44444444444444%";
+                    break;
                 default:
                     position = "0px 0%";
                 }
@@ -198,6 +204,9 @@ function allowDrop(e) {
                     break;
                 case 'container04':
                     position = "0px 18.75%";
+                    break;
+                case 'container05':
+                    position = "0px 25%";
                     break;
                 default:
                     position = "0px 0%";
